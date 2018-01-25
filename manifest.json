@@ -1,8 +1,8 @@
 {
      "name": "News",
      "short_name": "News",
-     "display": "minimal-ui",
-     "start_url": "/",
+     "display": "Standalone",
+     "start_url": ".",
      "theme_color": "#333",
      "background_color": "#fff",
      "icons": [

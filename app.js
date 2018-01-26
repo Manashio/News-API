@@ -31,10 +31,17 @@ function createArticle(article) {
 		`;
 }
 
+
+let item = document.getElementById('status');
+
 function clientMsg(){
 		if(navigator.onLine){
 		}else{
-			document.getElementById('status').innerHTML = "<div class = 'status'>OFFLINE</div>";
+			let target = document.getElementById('status').innerHTML = "<div class = 'status'>OFFLINE</div>";
+
+			setTimeout(function(){
+				item.style.display = 'none';
+			}, 3000);
 		}
 }
 window.addEventListener('online', clientMsg);

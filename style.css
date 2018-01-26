@@ -24,6 +24,7 @@ a,a:hover{
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+    border-radius: 4px;
 }
 .btn:hover{
     background:  #1575a5;

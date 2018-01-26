@@ -5,7 +5,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/.",
+  "start_url": "/News-API",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

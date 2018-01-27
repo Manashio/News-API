@@ -24,6 +24,7 @@ a,a:hover{
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+    border-radius: 4px;
 }
 .btn:hover{
     background:  #1575a5;
@@ -54,3 +55,26 @@ img{
           padding:0px 20px; 
      }
  }
+ .status{
+    width:200px;
+    height:30px;
+    background:#ff5722;
+    position:relative;
+    border-radius: 500px;
+    color: #fff;
+    margin:0 auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top:10px;
+    animation: slide 0.9s cubic-bezier(0.47, 0.16, 0.14, 0.83);
+ }
+    
+@keyframes slide{
+    0%{
+        top:-80px;
+    }
+    100%{
+        top: 0px;
+    }
+
+}

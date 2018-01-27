@@ -32,3 +32,18 @@ function createArticle(article) {
 }
 
 
+let item = document.getElementById('status');
+
+function clientMsg(){
+		if(navigator.onLine){
+		}else{
+			let target = document.getElementById('status').innerHTML = "<div class = 'status'>OFFLINE</div>";
+
+			setTimeout(function(){
+				item.style.display = 'none';
+			}, 3000);
+		}
+}
+window.addEventListener('online', clientMsg);
+clientMsg();
+

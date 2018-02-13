@@ -22,12 +22,12 @@ async function updateNews() {
 }
 function createArticle(article) {
 	return `
-			<div class="article">
-					<h2>${article.title}</h2>
-					<img src="${article.urlToImage}">
-					<p>${article.description}</p>
-					<a class="btn" href="${article.url}">Read more</a>
-			</div>
+		<div class="article">
+			<h2>${article.title}</h2>
+			<img src="${article.urlToImage}">
+			<p>${article.description}</p>
+			<a class="btn" href="${article.url}">Read more</a>
+		</div>
 		`;
 }
 

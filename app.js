@@ -3,7 +3,6 @@ const main = document.querySelector('main');
 window.addEventListener( 'load', e =>{
 	updateNews();
 });
-
 if('serviceWorker' in navigator){
 	try{
 		navigator.serviceWorker.register('sw.js');
@@ -12,8 +11,6 @@ if('serviceWorker' in navigator){
 
 	}
 }
-
-
 async function updateNews() {
 	const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}
 `);
@@ -30,10 +27,7 @@ function createArticle(article) {
 		</div>
 		`;
 }
-
-
 let item = document.getElementById('status');
-
 function clientMsg(){
 		if(navigator.onLine){
 		}else{

@@ -19,6 +19,15 @@ p{
 a,a:hover{
     text-decoration: none;
 }
+.header{
+    width:100%;
+    height: auto;
+    background: #333;
+    text-align: center;
+    padding: 15px 0px;
+}span{
+    color: #fff;
+}
 .btn{
     padding: 15px 30px;
     background: #21aef3;
@@ -38,16 +47,15 @@ a,a:hover{
      width: 80%;
      height: 100%;
      padding: 30px 0px;
-     background: #fff;
+     background: transparent;
      position: relative;
      margin: 0 auto;
 }
-main{
+.main,main{
     width: 600px;
     height: 100%;
     position: relative;
     margin: 0 auto;
-
 }
 .article{
      width:100%;

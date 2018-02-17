@@ -31,11 +31,9 @@ let item = document.getElementById('status');
 function clientMsg(){
 		if(navigator.onLine){
 		}else{
-			let target = document.getElementById('status').innerHTML = "<div class = 'status'>OFFLINE</div>";
-
-			setTimeout(function(){
-				item.style.display = 'none';
-			}, 3000);
+			let target = document.getElementById('status').innerHTML = "Unable to connect";
+			item.style.backgroundColor = "#333";
+			setTimeout(function(){item.style.display = 'none';},5000);
 		}
 }
 window.addEventListener('online', clientMsg);

@@ -1,20 +1,23 @@
 *{
      padding: 0px;margin: 0px;
-     font-family:  'Roboto';
+     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
      color: #333;
 }
-
+body{
+    background: rgb(242, 242, 242);
+}
 h2{
-     padding: 20px 20px;
-     font-weight: 500;
-     text-transform: uppercase;
-     line-height: 34px;
+     font-size: 17px;
+     padding: 20px 10px;
+     font-weight: bold;
+     text-transform: capitalize;
+     line-height: 30px;
+     word-wrap:break-word;
 }
 p{
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 30px;
     padding: 20px 20px;
-
 }
 a,a:hover{
     text-decoration: none;
@@ -27,6 +30,7 @@ a,a:hover{
     padding: 15px 0px;
 }span{
     color: #fff;
+    font-size: 22px;
 }
 .btn{
     padding: 15px 30px;
@@ -35,12 +39,12 @@ a,a:hover{
     transition: 0.5s;
     -webkit-transition: 0.5s;
     position: relative;
-    float: left;
-    margin-left: 20px;
+    float: right;
+    margin-right: 20px;
     margin-top: 20px;
     border-radius: 4px;
 }
-.btn:hover{
+.btn:hover,.btn:focus{
     background:  #1575a5;
 }
 .container{
@@ -60,12 +64,19 @@ a,a:hover{
 .article{
      width:100%;
      height:100%;
-     padding-bottom:90px; 
+     padding-bottom:90px;
+     background: #FFF;
+     -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    border-radius: 4px;
+    position: relative;
+    top: -15px;
 }
 img{
-     width: 90%;
+     width: 100%;
      height: 100%;
-     padding: 20px 20px;
+     padding: 0px 0px;
+     background: #ccc;
 }
 @media screen and (max-width: 720px) {
      .container {
@@ -78,26 +89,28 @@ img{
         width: 100%;
      }
  }
- .status{
-    width:200px;
-    height:30px;
-    background:#ff5722;
-    position:relative;
-    border-radius: 500px;
+ #status{
+    width:auto;
+    background:transparent;
+    position:fixed;
     color: #fff;
-    margin:0 auto;
-    margin-top: 10px;
     text-align: center;
-    padding-top:10px;
-    animation: slide 0.9s cubic-bezier(0.47, 0.16, 0.14, 0.83);
+    padding:15px 40px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    margin-bottom: -25px;
+    border-radius: 2px;
+    opacity:0.8;
  }
     
 @keyframes slide{
     0%{
-        top:-80px;
+        opacity:0;
     }
     100%{
-        top: 0px;
+        opacity: 9;
     }
 
 }

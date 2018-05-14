@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 * **Manash Bharali** - [Manashio](https://manashio.github.io)
 
 
-## [DEMO](newsapp01.netlify.com) 
+## [DEMO](https://newsapp01.netlify.com) 
 
 
 

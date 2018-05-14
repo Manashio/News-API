@@ -1,7 +1,6 @@
 const apiKey = '36c64372d0aa470d81360c574cef839f';
 const main = document.querySelector('main');
 const heading = document.querySelector('heading');
-
 window.addEventListener( 'load', e =>{
 	updateNews();
 });
@@ -30,11 +29,9 @@ function createArticle(article) {
 }
 function getTitle(article){
 	if(article.author == null){
-		return ` `;
+		return ``;
 	}else{
-		return `
-		<a class="" href="#${article.author}">${article.author}</a>
-		`;
+		return `<a class="ico" href="#${article.author}">${article.author}</a>`;
 	}
 }
 
@@ -42,7 +39,7 @@ let item = document.getElementById('status');
 function clientMsg(){
 		if(navigator.onLine){
 		}else{
-			let target = document.getElementById('status').innerHTML = "Unable to connect";
+			let target = document.getElementById('status').innerHTML = "Connection error";
 			item.style.backgroundColor = "#333";    
 			item.style.border = "2px solid #fff";
 			setTimeout(function(){item.style.display = 'none';},5000);

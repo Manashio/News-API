@@ -5,6 +5,7 @@
 }
 body{
     background: rgb(242, 242, 242)!important;
+
 }
 .h4{
      font-size: 17px;
@@ -20,8 +21,7 @@ p{
     padding: 20px 20px;
 }
 a,a:hover{
-    text-decoration: none;
-
+    text-decoration: none!important;
 }
 .header{
     width:100%;
@@ -115,4 +115,26 @@ img{
         opacity: 9;
     }
 
+}
+
+.ico{
+	padding: 5px;
+	font-size: 13px;
+	line-height: 10px;
+	padding-bottom: 4px;
+	color: #fff!important;
+    border-radius: 3px;	
+    background: #f16529;
+    display: inline-block;
+    margin: 5px;
+
+}
+.ico:hover{
+    background:#ff4d0080;
+}
+
+.logo{
+    letter-spacing: 3px;
+    color: #21aef3;
+    text-transform: uppercase;
 }

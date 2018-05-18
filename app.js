@@ -44,7 +44,7 @@ function clientMsg(){
 		if(navigator.onLine){
 		}else{
 			let target = document.getElementById('status').innerHTML = "Connection error";
-			item.style.backgroundColor = "#333";    
+			item.style.backgroundColor = "#5f30ea";    
 			item.style.border = "2px solid #fff";
 			setTimeout(function(){item.style.display = 'none';},5000);
 		}

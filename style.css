@@ -149,9 +149,7 @@ footer{
    width: 100%;
    height: auto;
    background: #eee;
-    letter-spacing: 3px;
     color: #5f30ea;
-    text-transform: uppercase;
 }
 footer a{
     color: #5f30ea!important;

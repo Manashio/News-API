@@ -2,7 +2,7 @@
   "name": "NEWS",
   "short_name": "NEWS",
   "theme_color": "#5f30ea",
-  "background_color": "#967ce4",
+  "background_color": "#FFFFFF",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/.",

@@ -158,7 +158,7 @@ footer a{
 }
 .loader {
     height: 5px;
-    animation: spin 2s linear infinite;
+    animation: spin 2s linear ease-out;
     background: #5f30ea;
 }
 @keyframes spin {

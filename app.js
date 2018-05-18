@@ -1,13 +1,14 @@
 const apiKey = '36c64372d0aa470d81360c574cef839f';
+
 const main = document.querySelector('main');
 const heading = document.querySelector('heading');
+
 window.addEventListener( 'load', e =>{
 	updateNews();
 });
 if('serviceWorker' in navigator){
 	try{
 		navigator.serviceWorker.register('sw.js');
-		console.log(`SW registered`);
 	}catch(error){
 	}
 }
@@ -28,9 +29,7 @@ function createArticle(article) {
 		`;
 }
 function getTitle(article){
-	if(article.author == article.author){
 		return `<a class="ico" href="#${article.author}">${article.author}</a>`;
-	}
 }
 
 let item = document.getElementById('status');

@@ -1,6 +1,11 @@
+<p align="center"> <img height="200" src="https://manashio.github.io/News-API/images/icons/icon-512x512.png"></p>
+
+<br><br><br><br>
+
+
 # NEWS APP
 News app is a Progressive Web App (PWA)
-
+<br><br><br>
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
@@ -9,11 +14,10 @@ These instructions will get you a copy of the project up and running on your loc
 ```
   $ git clone https://github.com/Manashio/News-API.git
 ```
- :tada::tada::tada: You're done :tada::tada::tada: 
-
+ :tada::tada::tada: **H A C K &nbsp;&nbsp; I T** :tada::tada::tada: 
+<br><br>
 ## Built With
-
-
+<br><br>
 * [News API](https://manashio.github.io)
 * JavaScript 
 * [Bootstrap](https://getbootstrap.com)  - ``` V 4.1.1``` 
@@ -21,12 +25,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 
-## Authors
+## Author
 
 * **Manash Bharali** - [Manashio](https://manashio.github.io)
-
-
-## [DEMO](https://newsapp01.netlify.com) 
+\
+\
+\
+ [Check it out it's live](https://newsapp01.netlify.com) 
 
 
 

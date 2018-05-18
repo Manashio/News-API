@@ -123,23 +123,23 @@ img{
    padding-bottom: 4px;
    color: #fff!important;
    border-radius: 3px;	
-   background: #f16529;
+   background: #5f30ea;
    display: inline-block;
    margin: 5px;
 
 }
 .ico:hover{
-   background:#ff4d0080;
+   background:#967ce4;
 }
 
 .logo{
    letter-spacing: 3px;
-   color: #21aef3;
+   color: #5f30ea;
    text-transform: uppercase;
 }.loader {
    height: 5px;
    animation: spin 2s linear infinite;
-   background: #21aef3;
+   background: #5f30ea;
 }
 @keyframes spin {
    0% { width: 0px; }
@@ -149,5 +149,21 @@ footer{
    width: 100%;
    height: auto;
    background: #eee;
+    letter-spacing: 3px;
+    color: #21aef3;
+    text-transform: uppercase;
+}.loader {
+    height: 5px;
+    animation: spin 2s linear infinite;
+    background: #21aef3;
+}
+@keyframes spin {
+    0% { width: 0px; }
+    100% { width: 100%;  }
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #eee;
 
 }

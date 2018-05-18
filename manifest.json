@@ -1,8 +1,8 @@
 {
   "name": "NEWS",
   "short_name": "NEWS",
-  "theme_color": "#21aef3",
-  "background_color": "#ffffff",
+  "theme_color": "#5f30ea",
+  "background_color": "#967ce4",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/.",

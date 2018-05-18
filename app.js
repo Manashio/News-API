@@ -3,15 +3,22 @@ const apiKey = '36c64372d0aa470d81360c574cef839f';
 const main = document.querySelector('main');
 const heading = document.querySelector('heading');
 
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    console.log('Service worker registration succeeded:', registration);
+  }).catch(function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
+
+
 window.addEventListener( 'load', e =>{
 	updateNews();
 });
-if('serviceWorker' in navigator){
-	try{
-		navigator.serviceWorker.register('sw.js');
-	}catch(error){
-	}
-}
+
 async function updateNews() {
 	const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`);
 	const json = await res.json();

@@ -28,9 +28,7 @@ function createArticle(article) {
 		`;
 }
 function getTitle(article){
-	if(article.author == null){
-		return ``;
-	}else{
+	if(article.author == article.author){
 		return `<a class="ico" href="#${article.author}">${article.author}</a>`;
 	}
 }

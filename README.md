@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 <br><br>
 ## Built With
 <br><br>
-* [News API](https://manashio.github.io)
+* [News API](https://newsapp01.netlify.com)
 * JavaScript 
 * [Bootstrap](https://getbootstrap.com)  - ``` V 4.1.1``` 
 * CSS 

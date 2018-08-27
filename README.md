@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Author
 
-* **Manash Bharali** - [Manashio](https://manashio.github.io)
+* **Manash Bharali** - [github/Manash](https://manashio.github.io)
 \
 \
 \

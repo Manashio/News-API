@@ -1,4 +1,4 @@
-<p align="center"> <img height="200" src="https://manashio.github.io/News-API/images/icons/icon-512x512.png"></p>
+<p align="center"> <img height="200" src="https://manashio.github.io/News-APP/images/icons/icon-512x512.png"></p>
 
 <br><br><br><br>
 

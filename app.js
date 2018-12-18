@@ -20,7 +20,7 @@ window.addEventListener( 'load', e =>{
 });
 
 async function updateNews() {
-	const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`);
+	const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=google-news-ar&apiKey=${apiKey}`);
 	const json = await res.json();
 	main.innerHTML = json.articles.map(createArticle).join('<br>');
 	heading.innerHTML = json.articles.map(getTitle).join('');
